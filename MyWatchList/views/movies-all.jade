@@ -1,0 +1,11 @@
+h1
+	| All movies
+
+a(href="/movies/add")
+	| Add new movie
+
+ul
+	each movie in movies
+		li 
+			strong=movie.title
+	
